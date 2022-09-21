@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Annie+Use+Your+Telescope&family=Bebas+Neue&family=Blaka&family=Blaka+Hollow&family=Bungee&family=Codystar:wght@300&family=Dancing+Script&family=Diplomata+SC&family=Dynalight&family=Eater&family=Fascinate&family=Faster+One&family=Frijole&family=IBM+Plex+Mono:wght@100;200;300;700&family=IM+Fell+English+SC&family=Irish+Grover&family=Julius+Sans+One&family=Kdam+Thmor+Pro&family=League+Gothic&family=Macondo&family=Monofett&family=Monoton&family=Mr+Dafoe&family=Notable&family=Pacifico&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Potta+One&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,400;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rock+Salt&family=Rubik+Mono+One&family=Rubik+Moonrocks&family=Rubik+Puddles&family=Russo+One&family=Sigmar+One&family=Stint+Ultra+Condensed&family=Tangerine&family=Ultra&display=swap');
+
+
+:root {
+  --clr-text: #fff;
+  --clr-bg: #101711;
+  --clr-WD: #000;
+  --clr-txt: #fff;
+  /* Optional */
+  --clr-text-light: #fdf7f7;
+
+
+  /* Secondary Color */
+  --bbl-bg: #4fc3dc;
+  --clr-crimson: #dc143c;
+  --clr-blue-1876f2: #1876f2;
+  --clr-greeen-187615f2: #187615f2;
+  --clr-deepGreen-04fc43: #04fc43;
+  --clr-yellow: #fee800;
+  --clr-lightRed-ff2972: #ff2972;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body {
+  width: 100%;
+  background: #FFF;
+  color: #000;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  box-shadow: 0 50px 70px rgba(0, 0, 0, 0.1);
+  border-left: 50px solid #fff;
+  border-right: 50px solid #fff;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1.35fr 3fr;
+  column-gap: 30px;
+}
+
+.cvl-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 8px solid hsla(0, 0%, 80%, 0.413);
+}
+
+.cvl-contacts p {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.leftbar {
+  margin-bottom: 20px;
+}
+
+.rightbar {
+  margin-bottom: 50px;
+}
+
+.cvl-addres h3 {
+  font: 1.5rem;
+  line-height: 1;
+  padding: 10px 0;
+  color: #000;
+}
+
+.cvl-addres p {
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.cvl-contacts {
+  margin: 10px 0;
+}
+
+.cvl-contacts p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 600;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+.cvl-contacts p:nth-child(2) {
+  padding-bottom: 0px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.cvl-contacts p:nth-child(3) {
+  padding-bottom: 10px;
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+.cvl-contacts p:nth-child(4) {
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 01;
+}
+
+.cvl-contacts p:nth-child(4) span {
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
+.cvl-h-name h1 {
+  font-size: 1.6rem;
+  padding-top: 10px;
+  font-weight: 700;
+}
+
+.cvl-h-name h3 {
+  font-size: 1.1rem;
+  margin-top: -10px;
+  font-weight: 550;
+}
+
+.cvl-h-name p {
+  font-size: 17px;
+  line-height: 1.05;
+  font-weight: 400;
+}
+
+.cvl-body {
+  margin-top: 30px;
+  margin-top: 20px;
+}
+
+.cvl-body strong {
+  font-size: 19px;
+  padding: 0 0 10px 5px;
+}
+
+.peragraph .pera {
+  font-size: 18px;
+  word-wrap: break-word;
+  word-spacing: 0%;
+  padding-bottom: 30px;
+}
+
+.peragraph {
+  line-height: 1;
+}
+
+.peragraph .pera strong {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  color: #1876f2;
+}
+
+.div-p {
+  margin-top: 7.5px;
+  line-height: 1.2;
+}
